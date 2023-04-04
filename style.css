@@ -1,0 +1,69 @@
+body{
+    margin: 2em;
+}
+nav{
+    padding: 0 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    padding: 1em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration-color: rgb(77, 5, 105);
+    color: rgb(181, 10, 224);
+    background-color: beige;
+}
+header{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://via.placeholder.com/1920x1080.png");
+}
+h2{
+    text-align: center;
+    margin-left: 5em;
+    font-size: large;
+}
+#main{
+    margin: 2%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dos{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dos ul li .first{
+    color: rgb(12, 134, 183);
+}
+.dos ul li .second{
+    color: rgb(227, 182, 4);
+}
+.dos ul li .third{
+    color: rgb(76, 7, 133);
+}
+.tres{
+    padding-left: 20px;
+    justify-content: space-between;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(219, 238, 6);
+}
